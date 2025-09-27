@@ -1,13 +1,14 @@
-// Change the user name on page load
+// Change the user name
 function changeUserName() {
     const userName = prompt("Please enter your name:");
     if (userName) {
         document.getElementById("user-name").textContent = userName;
     }
 }
+// Change the username on page reload
 window.onload = changeUserName;
 
-// Handle form submission
+// Form submission
 document.getElementById('contactForm').addEventListener('submit', function (e) {
     e.preventDefault();
 

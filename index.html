@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Change title later -->
-    <title>Bootcamp RevoU</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="assets/web-logo-img.jpg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/web-logo-img.jpg" />
+    <link rel="icon" type="image/jpg" sizes="32x32" href="assets/web-logo-img.jpg" />
+    <link rel="icon" type="image/jpg" sizes="16x16" href="assets/web-logo-img.jpg" />
+
+    <!-- Title -->
+    <title>D'Photography Co.</title>
 
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="css/styles.css" />
@@ -13,7 +19,7 @@
 
   <body>
     <header>
-      <!-- navigation bar -->
+      <!-- Navigation bar -->
       <nav class="navbar-container">
         <div class="logo" alt="logo"></div>
         <ul class="navbar">
@@ -26,36 +32,66 @@
     </header>
 
     <main>
+      <!-- Home section -->
       <section id="home">
-        <h1>Hi <span id="user-name">name</span>, Welcome to My Website</h1>
-        <p>This is the home section. Will add some more text later.</p>
-        <!-- <img src="https://picsum.photos/500" alt="home-image"/> -->
+        <h1>
+          Hi <span id="user-name">there</span>! I'm Desta, Welcome to My
+          Website!
+        </h1>
+        <p>
+          I like to capture life's precious moments through my lens.
+          Specializing in portrait, landscape, and event photography.
+        </p>
+        <img src="assets/hero-img.jpg" alt="hero-image" class="hero-image" />
       </section>
 
+      <!-- Profile section -->
       <section id="profile">
         <h2>Profile</h2>
-        <p>This is the profile section. Will add some more text later to this section.</p>
-        <img src="https://picsum.photos/200" alt="profile-image" />
-      </section>
-
-      <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>This is the portfolio section. Will add some more text and change all the images in this section later.</p>
-
-        <!-- image gallery section -->
-        <div class="gallery">
-          <img src="https://picsum.photos/200?random=1" alt="image-1" />
-          <img src="https://picsum.photos/200?random=2" alt="image-2" />
-          <img src="https://picsum.photos/200?random=3" alt="image-3" />
-          <img src="https://picsum.photos/200?random=4" alt="image-4" />
-          <img src="https://picsum.photos/200?random=5" alt="image-5" />
-          <img src="https://picsum.photos/200?random=6" alt="image-6" />
+        <img src="assets/profile-img.jpg" alt="profile-image" />
+        <p>
+          With over 5 years of experience in photography, I specialize in
+          creating timeless images that tell your unique story. Based in
+          Indonesia, I work with clients worldwide to capture their special
+          moments.
+        </p>
+        <div class="expertise">
+          <h3>Specialties:</h3>
+          <ul>
+            <li>Portrait Photography</li>
+            <li>Landscape Photography</li>
+            <li>Event Photography</li>
+            <li>Wedding Photography</li>
+          </ul>
         </div>
       </section>
 
+      <!-- Portfolio section -->
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>
+          Here's a selection of my recent work. Each image tells its own unique
+          story.
+        </p>
+
+        <!-- Image gallery section -->
+        <div class="gallery">
+          <img src="assets/portfolio-img-1.jpg" alt="image-1" />
+          <img src="assets/portfolio-img-2.jpg" alt="image-2" />
+          <img src="assets/portfolio-img-3.jpg" alt="image-3" />
+          <img src="assets/portfolio-img-4.jpg" alt="image-4" />
+          <img src="assets/portfolio-img-5.jpg" alt="image-5" />
+          <img src="assets/portfolio-img-6.jpg" alt="image-6" />
+        </div>
+      </section>
+
+      <!-- Contact section -->
       <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Enter your contact info below and leave us a message.</p>
+        <h2>Contact Me</h2>
+        <p>
+          Interested in working together? Let's create something beautiful! Fill
+          out the form below to get in touch.
+        </p>
 
         <div class="form-container">
           <!-- Form input section -->
@@ -80,6 +116,7 @@
       </section>
     </main>
 
+    <!-- Footer section -->
     <footer>
       <p>
         &copy;
@@ -90,7 +127,7 @@
       </p>
     </footer>
 
-    <!-- JavaScript File -->
+    <!-- JavaScript source -->
     <script src="js/script.js"></script>
   </body>
 </html>
